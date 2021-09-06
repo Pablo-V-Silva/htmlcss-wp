@@ -48,6 +48,7 @@
 
 /* /Debug */
 
+/* Struttura + margini */
 .margin {
   width: 70%;
   margin: auto;
@@ -93,4 +94,13 @@ footer {
 .axl {
   width: 60%;
   margin: 0 1%;
+}
+/* /Struttura + margini */
+
+.logo {
+  width: 12rem;
+}
+
+.nav_link {
+  
 }
