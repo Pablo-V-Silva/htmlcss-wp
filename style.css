@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Debug */
+.debug header {
+  height: 100px;
+  background-color: #E579E6;
+}
+
+.debug .foto {
+  background-color: #e1d67a;
+  height: 430px;
+}
+
+.debug .article {
+  background-color: #0086FF;
+  height: 430px;
+}
+
+.debug footer {
+  height: 50px;
+  background-color: #8801FE;
+}
+
+.debug .title {
+  height: 100px;
+  background-color: #ABCFE7;
+}
+
+.debug .asm {
+  height: 290px;
+  background-color: #ABCFE7;
+}
+
+.debug .axl {
+  height: 290px;
+  background-color: #ABCFE7;
+}
+
+/* /Debug */
+
+.margin {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+}
+
+header, .foto {
+  margin-bottom: 1rem;
+}
+
+main {
+  margin-bottom: 0.6rem;
+}
+
+.foto {
+  width: 100%;
+}
+
+.article {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.asm, .axl {
+  float: left;
+}
+
+.asm {
+  width: 19%;
+}
+
+.axl {
+  width: 60%;
+  margin: 0 1%;
+}
