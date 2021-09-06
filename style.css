@@ -102,9 +102,15 @@ footer {
 }
 /* /Struttura + margini */
 
+/* Utility */
+
+/* /Utility */
+
+/* header */
+
 .logo {
   width: 12rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.7rem;
 }
 
 .nav_link {
@@ -116,13 +122,18 @@ footer {
   margin: 0 1rem; 
 }
 
+/* /header */
+
+/* Main prima parte */
+
 .foto {
+  margin: 3rem 0rem;
   background-size: cover;
   background-position: center;
   background-image: url("./img/banner.jpg");
   background-repeat: no-repeat;
   background-color: rgba(130, 130, 130, 0.5);
-      background-blend-mode: color-burn;
+  background-blend-mode: color-burn;
   width: 100%;
   height: 650px;
   border-radius: 1rem;
@@ -139,3 +150,23 @@ footer {
   left: 5rem;
   opacity: 1;
 }
+
+/* /Main prima parte */
+
+/* Main articoli */
+
+.leadership {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+.img1 {
+  width: 100%; 
+  opacity: 0.9;
+}
+
+.over {
+  border-radius: 1rem;
+  background-color: black;
+}
+/* Main articoli */
